@@ -97,7 +97,7 @@ class MongdbSpringbootApplicationTests {
             System.out.println("更新成功");
         } catch (Exception exception) {
             exception.printStackTrace();
-            System.out.println("更新失败");
+            System.out.println("更新失败:"+exception.getMessage());
         }
 
     }
