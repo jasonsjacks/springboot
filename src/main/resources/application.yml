@@ -1,0 +1,16 @@
+server:
+  port: 8068
+# 参考mongoProperties
+spring:
+  data:
+    mongodb:
+      host: 47.97.21.245
+      port: 27017
+      database: east
+      username: zhenni
+      password: '123456'
+
+
+
+
+
